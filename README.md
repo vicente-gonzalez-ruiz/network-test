@@ -21,7 +21,7 @@ A BitTorrent peer.
 
 A network monitor.
 
-### [iperf](https://github.com/esnet/iperf)
+### [iperf3](https://github.com/esnet/iperf)
 
 Bandwidth measurement.
 
