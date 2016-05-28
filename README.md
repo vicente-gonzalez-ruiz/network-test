@@ -30,3 +30,5 @@ Bandwidth measurement.
 ## Procedure
 
 1. Download the Big Buck Bunny movie using BitTorrent.
+
+`iperf3 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
