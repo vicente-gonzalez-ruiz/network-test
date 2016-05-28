@@ -1,7 +1,6 @@
 # network-test
 Scripts and docs to test the performance of a network
 
-
 ## Tools
 
 ### [tcpdump](http://www.tcpdump.org)
@@ -22,9 +21,11 @@ A BitTorrent peer.
 
 A network monitor.
 
+### [iperf](https://github.com/esnet/iperf)
+
+Bandwidth measurement.
+
 ## Data
-
-
 
 ## Procedure
 
