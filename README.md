@@ -2,17 +2,21 @@
 Scripts and info to test the performance of a network
 
 ## Read adapter configuration
+
 `ip addr show`
 
 ## Network monitoring
 1. [EtherApe](http://etherape.sourceforge.net)
+
 `sudo etherape &`
 
 2. [iftop](http://www.ex-parrot.com/pdw/iftop)
+
 `sudo xterm -e "iftop -i wlp1s0" &`
 
 ## Link/host reliability
 1. [ping](http://linux.die.net/man/8/ping)
+
 `ping uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
 
 ## Route/network discovery
