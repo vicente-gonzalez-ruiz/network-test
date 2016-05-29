@@ -4,6 +4,7 @@ Scripts and info to test the performance of a network
 ## Read adapter/kernel configuration
 
 `ip addr show`
+
 `ip route show`
 
 ## Network monitoring
