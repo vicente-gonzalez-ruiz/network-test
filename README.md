@@ -3,27 +3,22 @@ Scripts and docs to test the performance of a network
 
 ## Tools
 
-### [tcpdump](http://www.tcpdump.org)
+### Packet analyzers
+1. [tcpdump](http://www.tcpdump.org)
 
-A packet sniffer and analyzer.
+### Route discovery
+1. [traceroute](http://linux.die.net/man/8/traceroute)
 
-### [nmap](https://nmap.org)
+### Port scanners
+1. [nmap](https://nmap.org)
 
-### [opentracker](http://erdgeist.org/arts/software/opentracker/)
+### Bandwidth measurement
+1. [opentracker](http://erdgeist.org/arts/software/opentracker/)
+2. [rtorrent](https://github.com/rakshasa/rtorrent)
+3. [iperf3](https://github.com/esnet/iperf)
 
-A BitTorrent tracker.
-
-### [rtorrent](https://github.com/rakshasa/rtorrent)
-
-A BitTorrent peer.
-
-### [EtherApe](http://etherape.sourceforge.net)
-
-A network monitor.
-
-### [iperf3](https://github.com/esnet/iperf)
-
-Bandwidth measurement.
+### Network monitors
+1. [EtherApe](http://etherape.sourceforge.net)
 
 ## Data
 
