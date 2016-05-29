@@ -1,9 +1,10 @@
 # network-test
 Scripts and info to test the performance of a network
 
-## Read adapter configuration
+## Read adapter/kernel configuration
 
 `ip addr show`
+`ip route show`
 
 ## Network monitoring
 1. [EtherApe](http://etherape.sourceforge.net)
