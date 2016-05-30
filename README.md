@@ -51,9 +51,17 @@ Scripts and info to test the performance of a network
 `sudo nmap -v -p1-1024,5201 uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
 
 ## Bandwidth stress
+* [iperf3](https://github.com/esnet/iperf)
+
+`iperf3 -P 2 -t 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP upload 
+
+`iperf3 -P 2 -t 0 -R -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP download
+
+`iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
+
+
 * [opentracker](http://erdgeist.org/arts/software/opentracker/)
 * [rtorrent](https://github.com/rakshasa/rtorrent)
-* [iperf3](https://github.com/esnet/iperf)
 
 
 
