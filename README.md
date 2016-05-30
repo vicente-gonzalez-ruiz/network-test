@@ -65,10 +65,11 @@ Scripts and info to test the performance of a network
 `iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
 
 
-* [opentracker](http://erdgeist.org/arts/software/opentracker/)
-* [rtorrent](https://github.com/rakshasa/rtorrent)
+* [opentracker](http://erdgeist.org/arts/software/opentracker/)+[rtorrent](https://github.com/rakshasa/rtorrent)
 
+`wget wget http://www.frostclick.com/torrents/video/animation/Big_Buck_Bunny_1080p_surround_frostclick.com_frostwire.com.torrent`
 
+`mktorrent Big_Buck_Bunny_1080p_surround_frostclick.com_frostwire.com -a -p 127.0.0.1:6969`
 
 1. Download the Big Buck Bunny movie using BitTorrent.
 
