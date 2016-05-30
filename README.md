@@ -30,11 +30,16 @@ Scripts and info to test the performance of a network
 
 `tracepath uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
 
-* [nmap/zenmap](https://nmap.org/zenmap)
+* [nmap](https://nmap.org)/[zenmap](https://nmap.org/zenmap)
 
 `sudo nmap -traceroute uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
 
 `sudo zenmap -t uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io -p "Quick traceroute"` &
+
+## Host discovery
+* [nmap](https://nmap.org)
+
+`sudo nmap -sP 192.168.1.0/24`
 
 ## Packet-sniffing/Protocol analysis
 * [tcpdump](http://www.tcpdump.org)
