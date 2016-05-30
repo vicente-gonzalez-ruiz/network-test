@@ -23,11 +23,27 @@ Scripts and info to test the performance of a network
 
 ## Route/network discovery
 * [traceroute](http://linux.die.net/man/8/traceroute)
-* [zenmap](https://nmap.org/zenmap)
 
-## Packet/Protocol analysis
+`sudo traceroute -I uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+
+* [tracepath](http://linux.die.net/man/8/tracepath)
+
+`tracepath uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+
+* [nmap/zenmap](https://nmap.org/zenmap)
+
+`sudo nmap -traceroute uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+
+`sudo zenmap -t uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io -p "Quick traceroute"` &
+
+## Packet-sniffing/Protocol analysis
 * [tcpdump](http://www.tcpdump.org)
+ 
+`sudo tcpdump | grep "your filter here"
+
 * [wireshar](https://www.wireshark.org)
+
+`sudo tshark | grep "your filter here"`
 
 ## Port scanning
 * [nmap](https://nmap.org)
