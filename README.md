@@ -48,7 +48,9 @@ Scripts and info to test the performance of a network
 ## Port scanning
 * [nmap](https://nmap.org)
 
-## Bandwidth measurement
+`sudo nmap -v -p1-1024,5201 uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+
+## Bandwidth stress
 * [opentracker](http://erdgeist.org/arts/software/opentracker/)
 * [rtorrent](https://github.com/rakshasa/rtorrent)
 * [iperf3](https://github.com/esnet/iperf)
