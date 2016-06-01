@@ -69,7 +69,10 @@ Scripts and info to test the performance of a network
 
 `wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg`
 
-`mktorrent Big_Buck_Bunny_1080p_surround_frostclick.com_frostwire.com -a -p 127.0.0.1:6969`
+`mktorrent -v -p -a http://127.0.0.1:9000/announce big_buck_bunny_1080p_stereo.ogg`
+
+`opentracker &`
+
 
 1. Download the Big Buck Bunny movie using BitTorrent.
 
