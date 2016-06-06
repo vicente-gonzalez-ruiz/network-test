@@ -71,7 +71,7 @@ Scripts and info to test the performance of a network
 
 `host1$ wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg`
 
-`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_the_host_running_opentracker_without"<>">:9000/announce big_buck_bunny_1080p_stereo.ogg` # Create the big_buck_bunny_1080p_stereo.ogg.torrent file
+`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_host1_without"<>">:9000/announce big_buck_bunny_1080p_stereo.ogg` # Create the big_buck_bunny_1080p_stereo.ogg.torrent file
 
 `host1$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Serve (as a seeder) the file big_buck_bunny_1080p_stereo.ogg
 
