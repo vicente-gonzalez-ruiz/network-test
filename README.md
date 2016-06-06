@@ -58,11 +58,13 @@ Scripts and info to test the performance of a network
 ## Bandwidth stress
 * [iperf3](https://github.com/esnet/iperf)
 
-`iperf3 -P 2 -t 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP upload 
+`uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io$ iperf3 -s`
 
-`iperf3 -P 2 -t 0 -R -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP download
+`other$ iperf3 -P 2 -t 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP upload 
 
-`iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
+`other$ iperf3 -P 2 -t 0 -R -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # TCP download
+
+`other$ iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
 
 
 * [opentracker](http://erdgeist.org/arts/software/opentracker)+[mktorrent](http://mktorrent.sourceforge.net)+[qbittorrent](http://www.qbittorrent.org)
