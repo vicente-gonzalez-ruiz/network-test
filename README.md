@@ -65,15 +65,17 @@ Scripts and info to test the performance of a network
 `iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
 
 
-* [opentracker](http://erdgeist.org/arts/software/opentracker/)+[rtorrent](https://github.com/rakshasa/rtorrent)
+* [opentracker](http://erdgeist.org/arts/software/opentracker)+[mktorrent](http://mktorrent.sourceforge.net)+[qbittorrent](http://www.qbittorrent.org)
 
-`wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg`
+`host1$ opentracker -i 0.0.0.0 -p 9000 &` # Listen to any interface
 
-`mktorrent -v -p -a http://127.0.0.1:9000/announce big_buck_bunny_1080p_stereo.ogg`
+`host1$ wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg`
 
-`opentracker &`
+`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_the_host_running_opentracker_without"<>">:9000/announce big_buck_bunny_1080p_stereo.ogg` # Create the big_buck_bunny_1080p_stereo.ogg.torrent file
 
+`host1$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Serve (as a seeder) the file big_buck_bunny_1080p_stereo.ogg
 
-1. Download the Big Buck Bunny movie using BitTorrent.
+`host2$ scp host1:qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent .`
 
-`iperf3 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+`host2$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Download the file
+
