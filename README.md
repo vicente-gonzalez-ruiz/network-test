@@ -75,7 +75,7 @@ Scripts and info to test the performance of a network
 
 `host1$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Serve (as a seeder) the file big_buck_bunny_1080p_stereo.ogg
 
-`host2$ scp host1:qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent .`
+`host2$ scp username@host1:big_buck_bunny_1080p_stereo.ogg.torrent .`
 
 `host2$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Download the file
 
