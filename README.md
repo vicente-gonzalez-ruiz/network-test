@@ -67,7 +67,7 @@ Scripts and info to test the performance of a network
 `other$ iperf3 -P 2 -t 0 -u -b 0 -c uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io` # UDP upload
 
 
-* [opentracker](http://erdgeist.org/arts/software/opentracker)+[mktorrent](http://mktorrent.sourceforge.net)+[qbittorrent](http://www.qbittorrent.org)
+* [youtube-dl](https://rg3.github.io/youtube-dl/)+[opentracker](http://erdgeist.org/arts/software/opentracker)+[mktorrent](http://mktorrent.sourceforge.net)+[qbittorrent](http://www.qbittorrent.org)
 
 `host1$ opentracker -i 0.0.0.0 -p 9000 &` # Listen to any interface
 
