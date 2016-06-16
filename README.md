@@ -71,13 +71,13 @@ Scripts and info to test the performance of a network
 
 `host1$ opentracker -i 0.0.0.0 -p 9000 &` # Listen to any interface
 
-`host1$ wget http://bit.ly/1RVaOXw`
+`host1$ youtube-dl https://www.youtube.com/watch?v=YE7VzlLtp-4`
 
-`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_host1_without"<>">:9000/announce big_buck_bunny_1080p_stereo.ogg` # Create the big_buck_bunny_1080p_stereo.ogg.torrent file
+`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_host1_without"<>">:9000/announce big_buck_bunny_1280x738.mp4` # Create the big_buck_bunny_1280x738.mp4.torrent file
 
-`host1$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Serve (as a seeder) the file big_buck_bunny_1080p_stereo.ogg
+`host1$ qbittorrent big_buck_bunny_1280x738.mp4.torrent &` # Serve (as a seeder) the video
 
-`host2$ scp username@host1:big_buck_bunny_1080p_stereo.ogg.torrent .`
+`host2$ scp username@host1:big_buck_bunny_1280x738.mp4.torrent .`
 
-`host2$ qbittorrent big_buck_bunny_1080p_stereo.ogg.torrent &` # Download the file
+`host2$ qbittorrent big_buck_bunny_1280x738.mp4.torrent &` # Download the file
 
