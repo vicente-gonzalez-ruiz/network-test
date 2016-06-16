@@ -73,7 +73,7 @@ Scripts and info to test the performance of a network
 
 `host1$ youtube-dl https://www.youtube.com/watch?v=YE7VzlLtp-4`
 
-`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_host1_without"<>">:9000/announce big_buck_bunny_1280x738.mp4` # Create the big_buck_bunny_1280x738.mp4.torrent file
+`host1$ mktorrent -v -p -a http://<the_"public"_IP_address_of_host1_without"<>">:9000/announce big_buck_bunny_1280x738.mp4` # Create the .torrent file
 
 `host1$ qbittorrent big_buck_bunny_1280x738.mp4.torrent &` # Serve (as a seeder) the video
 
