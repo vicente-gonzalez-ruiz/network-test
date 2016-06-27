@@ -46,7 +46,7 @@ Scripts and info to test the performance of a network
  
 `sudo tcpdump | grep "your filter here"`
 
-* [wireshar](https://www.wireshark.org)
+* [wireshark](https://www.wireshark.org)
 
 `sudo tshark | grep "your filter here"`
 
