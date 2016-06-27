@@ -19,7 +19,7 @@ Scripts and info to test the performance of a network
 ## Link/host reliability
 * [ping](http://linux.die.net/man/8/ping)
 
-`ping uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
+`ping -s 1000 uvkkeb29ca8e.vicente-gonzalez-ruiz.koding.io`
 
 ## Route/network discovery
 * [traceroute](http://linux.die.net/man/8/traceroute)
